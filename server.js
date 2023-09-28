@@ -3,9 +3,12 @@ const app = express()
 
 app.set('view engine', 'ejs')
 
-app.get('/', (req, res, next) => {
-    res.render('home')
+app.get('/', (req, res) => {
+     res.render('home')
 })
+
+const aboutRouter = require('./routes/about')
+app.use('/about', aboutRouter)
 
 app.listen(3000)
 
