@@ -8,15 +8,7 @@
 	<title>Contact page</title>
 </head>
 
-	<nav class="app_nav">
-		<a href="home.html" class="logo">
-			<img src="logo.png" width="50px" height="50px">
-		</a>
-		<a href="projects.html">Projects</a>
-		<a href="services.html">Services</a>
-		<a href="contact.html">Contact</a>
-		<a href="about.html">About</a>
-	</nav>
+<%- include('partials/nav'); %>
 
 <main>
 	<h1>How to contact me?</h1>
@@ -38,7 +30,7 @@
 		</ul>
 	</section>
 	<h1>Or contact me by this form:</h1>
-	<form action="home.html">
+	<form action="/">
 		<div class="question">
 			<label for="subject">Your name:</label>
 			<input type="text" id="name" name="name" placeholder="First and Last name" required/>
@@ -61,23 +53,7 @@
 	</form>
 </main>
 
-
-<footer>
-	<div id="poshta">
-		<a href="mailto:arsenii.buriak@gmail.com">
-			ABURIAK@MY.CENTENNIALCOLLEGE.CA
-		</a>
-	</div>
-
-	<div class="links">
-		<a href='https://github.com/SenchaBka'>
-			GITHUB 
-		</a> <br> <br>
-		<a href="https://www.linkedin.com/in/arsenii-buriak/">
-			LINKEDIN
-		</a>
-	</div>
-</footer>
+<%- include('partials/footer'); %>
 
 </body>
 </html>  
