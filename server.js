@@ -7,8 +7,14 @@ app.get('/', (req, res) => {
      res.render('home')
 })
 
-const aboutRouter = require('./routes/about')
-app.use('/about', aboutRouter)
+const aboutRouter = require('./routes/contact')
+app.use('/contact', aboutRouter)
+
+const projectsRouter = require('./routes/projects')
+app.use('/projects', projectsRouter)
+
+const servicesRouter = require('./routes/services')
+app.use('/services', servicesRouter)
 
 app.listen(3000)
 
