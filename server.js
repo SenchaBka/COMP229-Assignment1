@@ -19,5 +19,7 @@ app.use('/contact', contactRouter)
 const servicesRouter = require('./routes/services')
 app.use('/services', servicesRouter)
 
-app.listen(3000)
+app.use(express.static('public/stylesheets'))
+app.use(express.static('public/images'))
 
+app.listen(3000)
