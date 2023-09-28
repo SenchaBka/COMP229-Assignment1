@@ -1,0 +1,146 @@
+/*Remove default browser setting*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, menu, nav, output, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+}
+
+/*body*/
+body{
+    background-color: black;
+    font-family: "Open Sans";
+    width: 90%;
+    margin: 30px auto;
+    color: #F6F4ED;
+}
+a:link, a:visited, a:hover, a:active{
+    text-decoration: none;
+    color: #F6F4ED;
+}
+
+nav{
+    width: 90%;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 100px;
+    font-size: 25px;
+    text-align: center;
+    margin: auto;
+}
+
+main{
+    text-align: center;
+}
+
+h1{
+    font-size: 55px;
+    padding: 15px;
+}
+
+h3{
+    font-size: 30px; 
+    padding: 15px;
+}
+
+p{
+    width: 70%;
+    margin: auto;
+    padding: 10px;
+}
+
+section.about-me{
+    display: grid;
+    width: 60%;
+    margin-left: 0;
+    grid-template-columns: 40% 60%;
+    text-align: left;
+    padding: 50px;
+}
+
+section.project{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    padding: 50px;
+    font-size: 25px;
+}
+
+section.list{
+    text-align: left;
+    font-size: 33px;
+    margin: 50px;
+}
+
+footer{
+    display: grid;
+    grid-template-columns: 80% 20%;
+    grid-template-rows: 200px;
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+#poshta{
+    font-weight: 600;
+    margin-top: 25px;
+}
+
+.links{
+    text-align: center;
+    margin-top: -30px;
+}
+
+/*Form style*/
+form{
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 150px;
+    font-weight: 400;
+}
+
+.question{
+    display: block;
+    margin: 70px 0px;
+}
+
+form label{
+    font-size: 25px;
+    color: white;
+    margin: 10px 0;
+}
+
+form input{
+    background-color: black;
+    font-size: 20px;
+    color: white;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 0;
+    border-bottom: 2px solid white;
+}
+
+input[type=text]:focus {
+    outline: 0;
+    border-bottom: 2px solid blue;
+}
+
+.submission{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: auto;
+}
+
+input[type=submit], input[type=reset]{
+    width: 50%;
+    border: 0;
+    margin: auto;
+    padding: 18px;
+}
+
+input[type=submit]{
+    background-color: #0210DC;
+}
