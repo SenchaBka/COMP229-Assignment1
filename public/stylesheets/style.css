@@ -72,6 +72,9 @@ section.list{
     margin: 50px;
 }
 
+
+/*Footer*/
+
 footer{
     display: grid;
     grid-template-columns: 80% 20%;
@@ -82,7 +85,7 @@ footer{
 
 #poshta{
     font-weight: 600;
-    margin-top: 25px;
+    margin-top: 10px;
 }
 
 .links{
@@ -90,7 +93,8 @@ footer{
     margin-top: -30px;
 }
 
-/*Form style*/
+/*Form*/
+
 form{
     width: fit-content;
     margin: auto;
